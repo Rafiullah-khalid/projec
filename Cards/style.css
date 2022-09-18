@@ -1,0 +1,153 @@
+*{
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+
+background: #0082e0;
+height: 80px;
+width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right : 20px;
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17 px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: 0.2s;
+}
+
+
+
+body{
+   justify-content: center; 
+    height: 200vh;
+    align-items: center; 
+    background: url("/img/pexels-delcho-dichev-3659194.jpg");
+    height: 40px;
+    width: 40;
+    /* background-size: cover; */
+}
+
+.box{
+    font-size: 23;
+    color: white;
+    display:flex;
+    padding-top: 40px;
+}
+
+footer{
+    font-size: large;
+    background:url("/img/pexels-eduardo-dutra-2115217.jpg");
+    background-size: cover;
+   
+}
+input{
+    color: white;
+    font-size: 34px;
+}
+
+/* this is image class tag */
+img{
+    height: 500px;
+    width: 350px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+/* all tag is in this conatainer */
+.conatainer{
+    display: flex ;
+}
+
+.card{
+    height: 400px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    display: flex;
+}
+/*this is for h1 and its discription*/
+.intro{
+    height: 70px;
+    width: 250px;
+    padding: 2px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 350px;
+    background-color: gray;
+    color: white;
+}
+
+
+h1{
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+    font-size: 50px;
+}
+
+h3{
+    margin: 10px;
+    font-size: 50px;
+}
+
+p{
+
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+
+.card:hover .intro{
+    height: 220px;
+    bottom: 240px;
+    background-color: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
